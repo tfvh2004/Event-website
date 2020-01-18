@@ -15,7 +15,11 @@ var objPeople = [
     {
         username: "dean",
         password: "de Jonge"
-    }
+	},
+	{
+		username: "Dean",
+		password: "De Jonge"
+	}
 ]
 
 function getInfo() {
@@ -23,7 +27,7 @@ function getInfo() {
 	var password = document.getElementById('password').value
 	for(var i = 0; i < objPeople.length; i++) {
 		if(username == objPeople[i].username && password == objPeople[i].password) {
-			window.alert(username + " is logged in!!!")
+			window.location.href='../rsvp2.htm';
 			return
 		}
 	}
@@ -33,6 +37,6 @@ function getInfo() {
 function home() {
     if (window.confirm('Weet u zeker dat u deze pagina wilt verlaten? U RSVP wordt niet opgeslagen ')) 
 {
-	window.location.href='../index.html';
+		window.location.href='../index.html';
 	};
 };

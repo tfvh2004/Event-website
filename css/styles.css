@@ -105,12 +105,12 @@ section h2{
     margin: 5px
 }
 
-a{
+#rsvp-link{
     color: #fff;
     text-decoration: none;
 }
 
-a:hover{
+#rsvp-link:hover{
     color: #d8d8d8;
     text-decoration: underline;
 }
