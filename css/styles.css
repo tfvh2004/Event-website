@@ -104,3 +104,13 @@ section h2{
     background-color: #000;
     margin: 5px
 }
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #d8d8d8;
+    text-decoration: underline;
+}
