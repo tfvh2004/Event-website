@@ -157,10 +157,10 @@ section{
     margin-left: 50%;
  }
 
- .tekstgebied{
+.VULIN1{
     position: relative;
-    right: 15%;
- }
+    right: 12.5%;
+}
 
 .submit{
     display: flex;
@@ -173,3 +173,19 @@ section{
     cursor: pointer;
     text-decoration: none;
 }
+
+.Naam{
+    display: flex;
+    margin: 4% 0% 0% 7.5%;
+    font-size: 21px;
+    padding: 3px;
+}
+
+.Email {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px 15px 7.5%;
+    font-size: 21px;
+    padding: 3px;
+}
+
