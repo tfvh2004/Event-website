@@ -20,12 +20,18 @@
         </nav>
     </header>
     <article>
-        <div class="text">
-        <h1>Namen van u en uw date en laat <br/>eventueel een luek berichtje achter</h1>
-        <textarea maxlength='500' cols='60' rows='10'></textarea>
-        <p id='charsLeft'></p>
-
-    </div>
+        <form netlify>
+            <div class="text">
+                <h1>Namen van u en uw partner en laat <br/>eventueel een luek berichtje achter</h1>
+                <div class="tekstgebied">
+                    <textarea maxlength='500' cols='60' rows='10'></textarea>
+                </div>
+                <p id='charsLeft'></p> 
+            </div>
+            <button class="submit"><span id='dienen'>Verstuur</span></button>
+        </form>
+    </article>
 <script src='./scripts/counter.js'></script>
+<script src='./scripts/login.js'></script>
 </body>
 </html>

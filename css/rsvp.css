@@ -8,7 +8,7 @@ body,
 html{
     background-color: #fff;
     font-family: 'Noto Sans', sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
     background-color: #638fc2;
 }
 
@@ -154,4 +154,23 @@ section{
     color: #b0b0b0;
     font-size: 0.70233rem;
     padding-top: 0.25rem;
+    margin-left: 50%;
  }
+
+ .tekstgebied{
+    position: relative;
+    right: 15%;
+ }
+
+.submit{
+    display: flex;
+    justify-content: center;
+    margin: 5% 0% 7% 43.3%;
+    font-size: 30px;
+    background: #2a0c8c;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
