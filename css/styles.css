@@ -1,0 +1,106 @@
+/*Colour scheme
+    #b9b3ce //Lavender gray
+    #91afc4 //Pewter blue
+    #638fc2 //Silver lake blue
+    #897da6 //Gray-blue
+    #756fa8 //Rhythm
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html{
+    background-color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+header{
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #fff;
+}
+
+nav{
+    min-height: 13vh;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1,
+nav ul{
+    font-size: 1.5rem;
+    flex: 1;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    color: #000;
+    text-decoration: none;
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section h2{
+    font-size: 5rem;
+    color: #fff;
+}
+
+.home{
+    background: linear-gradient(to right top, #91afc4, #91afc4);
+}
+
+.story{
+    background: linear-gradient(to right top, #897da6, #756fa8);
+}
+
+.photos{
+    background: linear-gradient(to right top, #ff416c, #ff4b2b);
+}
+
+.registry{
+    background: linear-gradient(to right top, #8f94fb, #4e54c8);
+}
+
+.rsvp{
+    background: linear-gradient(to right top, #dce35b, #45b649);
+}
+
+.bubble{
+    position: absolute;
+    z-index: -2;
+    background: linear-gradient(to right top, #91afc4, #91afc4);
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+}
+
+.burger{
+    display: none;
+}
+
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    margin: 5px
+}
