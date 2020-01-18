@@ -44,7 +44,7 @@ nav{
     stroke-width: 1;
 }
 
-h1{
+nav > h1{
     margin: auto;
 }
 
@@ -135,4 +135,23 @@ section{
     background-color: #638fc2;
     border: none;
     font-size: 20px;
+ }
+
+ textarea{
+    font-family: 'Noto Sans', sans-serif;
+ }
+
+ .text{
+    margin-left: 35%;
+ }
+
+ .text > h1{
+    margin: 5% 60% 5% 0%;
+    text-align: center;
+ }
+
+ #charsLeft{
+    color: #b0b0b0;
+    font-size: 0.70233rem;
+    padding-top: 0.25rem;
  }
