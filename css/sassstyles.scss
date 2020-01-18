@@ -123,16 +123,15 @@ section{
  }
 
  h2{
-    margin-top: 5%;
+    margin-top: 30%;
  }
 
  #GetInfo{
+    position: absolute;
     cursor: pointer;
-    margin-top: 30%;
-    position: relative;
-    left: 12.5%;
     padding: 30px;
     background-color: #638fc2;
     border: none;
     font-size: 20px;
+    left: 42.5%;
  }
