@@ -23,8 +23,8 @@ var objPeople = [
 ]
 
 function getInfo() {
-	var username = document.getElementById('username').value
-	var password = document.getElementById('password').value
+	var username = document.getElementById('username').value.toLowerCase()
+	var password = document.getElementById('password').value.toLowerCase()
 	for(var i = 0; i < objPeople.length; i++) {
 		if(username == objPeople[i].username && password == objPeople[i].password) {
 			window.location.href='../rsvp2.htm';
