@@ -189,3 +189,12 @@ section{
     padding: 3px;
 }
 
+#username{
+    color: #000;
+    opacity: 0.7;
+}
+
+#password{
+    color: #000;
+    opacity: 0.7;
+}

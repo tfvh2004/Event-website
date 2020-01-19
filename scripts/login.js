@@ -23,11 +23,11 @@ function getInfo() {
 			return
 		}
 	}
-	window.alert("Incorrect username or password")
+	window.alert("Deze naam is niet bij ons bekend, controleer op eventuele spelfouten.")
 }
 
 function home() {
-    if (window.confirm('Weet u zeker dat u deze pagina wilt verlaten? U RSVP wordt niet opgeslagen ')) 
+    if (window.confirm('Weet u zeker dat u deze pagina wilt verlaten? U RSVP wordt niet opgeslagen!')) 
 {
 		window.location.href='../index.html';
 	};
