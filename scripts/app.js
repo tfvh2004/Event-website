@@ -40,3 +40,11 @@ function navCheck(entries){
 sections.forEach(section => {
     observer.observe(section);
 });
+
+let countDownDate = new Date("Aug 6, 2020").getTime()
+let x = setInterval(function(){
+	let now = new Date().getTime();
+	let distance = countDownDate - now;
+	let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+	document.getElementById('countdown').innerHTML = days + " Days"
+})
