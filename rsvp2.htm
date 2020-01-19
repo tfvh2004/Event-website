@@ -25,13 +25,12 @@
             <form name="contact" netlify>
                 <input type="text" name="name" class="Naam" placeholder="Naam" autocomplete="off"/><br/>
                 <input type="text" name="name" class="Email" placeholder="Naam partner" autocomplete="off"/><br/>
-                <textarea name="description" id="whats" class="VULIN1" cols="60" rows="10"></textarea>
+                <textarea maxlength="500" name="description" id="whats" class="VULIN1" cols="60" rows="10"></textarea>
+                <p id='charsLeft'></p><!--Should still fix the character count-->
                 <button class="submit"><span id='dienen'>Verstuur</span></button>
               </form>
-            <p id='charsLeft'></p><!--Should still fix the character count-->
         </div>
     </article>
-<script src='./scripts/counter.js'></script>
 <script src='./scripts/login.js'></script>
 </body>
 </html>

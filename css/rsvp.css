@@ -154,7 +154,8 @@ section{
     color: #b0b0b0;
     font-size: 0.70233rem;
     padding-top: 0.25rem;
-    margin-left: 50%;
+    position: absolute;
+    right: 30%;
  }
 
 .VULIN1{
