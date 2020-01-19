@@ -6,7 +6,7 @@ textarea.addEventListener("input", event => {
     const currentLength = target.value.length;
 
     if (currentLength >= maxLength) {
-        return getElementById('U heeft te veel characters.')
+        return document.getElementById('U heeft te veel characters.')
     }
 
 
