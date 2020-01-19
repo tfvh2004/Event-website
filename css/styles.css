@@ -123,3 +123,16 @@ section h2{
     color: #d8d8d8;
     text-decoration: underline;
 }
+
+span{
+    opacity: 0;
+    display: inline-block;
+    transform: translateX(-100%);
+    transition: all 1s ease;
+}
+
+span.fade{
+    opacity: 1;
+    transform: translateX(0%);
+    letter-spacing: 10px;
+}
