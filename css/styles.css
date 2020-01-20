@@ -148,3 +148,20 @@ span.fade{
     justify-content: space-between;
     width: 90vw;
 }
+
+/*Submission received page*/
+.received{
+    background-color: #a6a6a6;
+}
+
+article{
+    background-color: white;
+}
+
+h4{
+    font-size: 40px;
+}
+
+a{
+    font-size: 30px;
+}
