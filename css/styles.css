@@ -229,6 +229,10 @@ iPhone 6/7/8 Plus portrait*/
     .row{
         margin: 20% 0% 20% 0%;
     }
+
+    .photos{
+        max-height: 200vh;
+    }
 }
 
 /*iPhone 6/7/8 Plus landscape*/
