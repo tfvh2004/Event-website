@@ -150,18 +150,33 @@ span.fade{
 }
 
 /*Submission received page*/
-.received{
-    background-color: #a6a6a6;
+#backCol, .received{
+    background-color: #638fc2;
 }
 
 article{
-    background-color: white;
+    background: linear-gradient(to right top, #dce35b, #45b649);
+    margin-top: 15%;
+    width: 60vw;
+    height: 30vh;
+    padding: 15px;
+    margin-left: 20%;
+    text-align: center;
+    line-height: 75px;
 }
 
 h4{
     font-size: 40px;
+    color: #fff;
 }
 
-a{
+#terugHome{
     font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#terugHome:hover{
+    color: #d8d8d8;
+    text-decoration: underline;
 }
