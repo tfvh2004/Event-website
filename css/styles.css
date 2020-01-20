@@ -71,6 +71,9 @@ section h2{
     text-align: center;
     font-size: 1.5em;
     color: #000;
+    line-height: 45px;
+    border: 1px solid #000;
+    padding: 15px;
 }
 
 .home{
@@ -181,48 +184,40 @@ p{
     margin-bottom: 3%;
 }
 
-/*Submission received page*/
-#backCol, .received{
-    background-color: #638fc2;
-}
-
-article{
-    background: linear-gradient(to right top, #dce35b, #45b649);
-    margin-top: 15%;
-    width: 60vw;
-    height: 30vh;
-    padding: 15px;
-    margin-left: 20%;
-    text-align: center;
-    line-height: 75px;
-}
-
-h4{
-    font-size: 40px;
-    color: #fff;
-}
-
-#terugHome{
-    font-size: 30px;
-    color: #fff;
-    text-decoration: none;
-}
-
-#terugHome:hover{
-    color: #d8d8d8;
-    text-decoration: underline;
-}
-
-
 /* Responsive design
 
-iPhone 6/7/8 Plus landscape*/
-@media screen and (max-width: 737px){
+iPhone 6/7/8 Plus portrait*/
+@media screen and (max-width: 414px){
+    #logo{
+        display: none;
+    }
+
+    .mnu{
+        font-size: 1em;
+    }
+
+    .tanimation{
+        font-size: 2em;
+    }
+
+    span.fade{
+        letter-spacing: 3px;
+    }
+
+    .header3s{
+        font-size: 0.8em;
+        width: 80vw;
+    }
+}
+
+/*iPhone 6/7/8 Plus landscape*/
+@media screen and (min-width: 575px) and (max-width: 736px){
     .mnu{
         font-size: 15px;
     }
 
     .tanimation{
+        margin-top: 15%;
         font-size: 3.8em;
     }
 
@@ -256,4 +251,52 @@ iPhone 6/7/8 Plus landscape*/
     .rsvp-link{
         font-size: 1em;
     }
+
+    .header3s{
+        font-size: 1em;
+        width: 60vw;
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*Submission received page*/
+#backCol, .received{
+    background-color: #638fc2;
+}
+
+article{
+    background: linear-gradient(to right top, #dce35b, #45b649);
+    margin-top: 15%;
+    width: 60vw;
+    height: 30vh;
+    padding: 15px;
+    margin-left: 20%;
+    text-align: center;
+    line-height: 75px;
+}
+
+h4{
+    font-size: 40px;
+    color: #fff;
+}
+
+#terugHome{
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#terugHome:hover{
+    color: #d8d8d8;
+    text-decoration: underline;
 }

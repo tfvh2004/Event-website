@@ -46,7 +46,7 @@ let x = setInterval(function(){
 	let now = new Date().getTime();
 	let distance = countDownDate - now;
 	let days = Math.floor(distance / (1000 * 60 * 60 * 24));
-	document.getElementById('countdown').innerHTML = days + " Days"
+	document.getElementById('countdown').innerHTML = days + " Dagen"
 })
 
 //Making the text animation
