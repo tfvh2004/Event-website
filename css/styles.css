@@ -82,6 +82,19 @@ section h2{
 
 .story{
     background: linear-gradient(to right top, #897da6, #756fa8);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.height-change{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#story-header{
+    margin-bottom: 5%;
+    text-align: center;
 }
 
 .photos{
@@ -90,10 +103,16 @@ section h2{
 
 .registry{
     background: linear-gradient(to right top, #8f94fb, #4e54c8);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .rsvp{
     background: linear-gradient(to right top, #dce35b, #45b649);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .bubble{
@@ -104,24 +123,23 @@ section h2{
     transition: all 0.5s ease;
 }
 
-.burger{
-    display: none;
-}
-
-.burger div{
-    width: 25px;
-    height: 3px;
-    background-color: #000;
-    margin: 5px
-}
-
-#rsvp-link{
+.rsvp-link{
     color: #fff;
     text-decoration: none;
 }
 
-#rsvp-link:hover{
+.rsvp-link:hover{
     color: #d8d8d8;
+    text-decoration: underline;
+}
+
+.registry-link{
+    color: #000;
+    text-decoration: none;
+}
+
+.registry-link:hover{
+    color: #474747;
     text-decoration: underline;
 }
 
@@ -148,6 +166,19 @@ span.fade{
     flex-direction: row;
     justify-content: space-between;
     width: 90vw;
+}
+
+#RSVP-header{
+    color: #fff;
+}
+
+p{
+    font-size: 1.2em;
+    width: 50vw;
+    line-height: 40px;
+    text-align: left;
+    margin-left: 2.5%;
+    margin-bottom: 3%;
 }
 
 /*Submission received page*/
@@ -180,4 +211,49 @@ h4{
 #terugHome:hover{
     color: #d8d8d8;
     text-decoration: underline;
+}
+
+
+/* Responsive design
+
+iPhone 6/7/8 Plus landscape*/
+@media screen and (max-width: 737px){
+    .mnu{
+        font-size: 15px;
+    }
+
+    .tanimation{
+        font-size: 3.8em;
+    }
+
+    span.fade{
+        letter-spacing: 5px;
+    }
+
+    #story-header{
+        font-size: 3em;
+    }
+
+    p{
+        margin-left: 3.5%;
+        width: 70vw;
+        font-size: 1.2em;
+        line-height: 30px;
+    }
+
+    .registry > h2{
+        font-size: 3em;
+    }
+
+    .registry-link{
+        font-size: 1em;
+    }
+
+    #RSVP-header{
+        font-size: 3em;
+    }
+
+    .rsvp-link{
+        font-size: 1em;
+    }
 }
