@@ -138,11 +138,13 @@ span.fade{
 }
 
 .stonks{
-    width: 20vw;
+    width: 25vw;
 }
 
-.row1{
+.row{
+    margin: 10% 0% 10% 0%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}    width: 90vw;
 }
