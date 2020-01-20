@@ -208,6 +208,23 @@ iPhone 6/7/8 Plus portrait*/
         font-size: 0.8em;
         width: 80vw;
     }
+
+    #story-header, .registry > h2, #RSVP-header{
+        margin-top: 5%;
+        margin-bottom: 8%;
+        font-size: 2.3em;
+    }
+
+    p{
+        font-size: 1em;
+        line-height: 30px;
+        width: 80vw;
+        margin-bottom: 5%;
+    }
+
+    .rsvp-link{
+        font-size: 1em;
+    }
 }
 
 /*iPhone 6/7/8 Plus landscape*/
