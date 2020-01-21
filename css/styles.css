@@ -227,7 +227,7 @@ iPhone 6/7/8 Plus portrait*/
     }
 
     .row{
-        margin: 20% 0% 20% 0%;
+        margin: 20% 0% 5% 0%;
         height: auto;
         flex-direction: column;
     }
@@ -245,7 +245,7 @@ iPhone 6/7/8 Plus portrait*/
     .leeg{
         height: 10%;
     }
-    
+
     /*For every 1px in height = 0.75px in width*/
     #si1p{
         width: 30%;
