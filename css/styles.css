@@ -253,10 +253,16 @@ iPhone 6/7/8 Plus portrait*/
         height: 40%;
     }
 
-    /*For every 1px in height = 0.667 in height*/
+    /*For every 1px in height = 0.667 in width*/
     #si3p{
         height: 40%;
         width: 26.668%;
+    }
+
+    /*For every 1px in height = 1.3550135501px in width*/
+    #si4l{
+        height: 30%;
+        width: 40.650406503%;
     }
 }
 
