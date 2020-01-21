@@ -233,7 +233,7 @@ iPhone 6/7/8 Plus portrait*/
 
     .stonks{
         width: 20vw;
-        height: auto;
+        max-height: 100vh;
     }
 }
 
