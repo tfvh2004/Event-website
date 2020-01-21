@@ -270,7 +270,7 @@ iPhone 6/7/8 Plus portrait*/
         height: 59.04%;
         width: 80%;
         margin: auto;
-        margin-bottom: 20%;
+        margin-bottom: 10%;
     }
 
     /* For every 1px in height = 1.504px in width*/
@@ -278,7 +278,7 @@ iPhone 6/7/8 Plus portrait*/
         height: 53.1914893617%;
         width: 80%;
         margin: auto;
-        margin-bottom: 20%;
+        margin-bottom: 10%;
     }
 
     /* For every 1 px in height = 1.498244245px in width */
@@ -286,7 +286,7 @@ iPhone 6/7/8 Plus portrait*/
         height: 53.395833334%;
         width: 80%;
         margin: auto;
-        margin-bottom: 20%;
+        margin-bottom: 10%;
     }
 
     .gone{
