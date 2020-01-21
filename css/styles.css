@@ -184,6 +184,10 @@ p{
     margin-bottom: 3%;
 }
 
+.foto-link{
+    display: none;
+}
+
 /* Responsive design
 
 iPhone 6/7/8 Plus portrait*/
@@ -291,6 +295,10 @@ iPhone 6/7/8 Plus portrait*/
 
     .gone{
         display: none;
+    }
+
+    .foto-link{
+        display: block;
     }
 }
 
