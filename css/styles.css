@@ -232,10 +232,6 @@ iPhone 6/7/8 Plus portrait*/
         flex-direction: column;
     }
 
-    .leegte{
-        margin-bottom: 30%;
-    }
-
     .portrait{
         height: 16vh;
         width: 9vw;
