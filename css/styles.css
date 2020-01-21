@@ -370,54 +370,15 @@ iPhone 6/7/8 Plus portrait*/
 
 
 /*iPads*/
-@media screen and (min-width: 768px) and (max-width: 1112px){
-    /*For every 1px in height = 0.75px in width*/
+@media screen and (min-width: 768px) and (max-width: 1112px){    
+    #si2p, #si3p, #si4l, #si5l, #si6l, #si7p, #si8p, #si9p, #si10l, #si11l, #si12l, #si13p, #si14p, #si15p{
+        display: none;
+    }
+
     #si1p{
-        width: 60%;
-        height: 80%;
-        margin: auto;
-        margin-bottom: 10%;
+        display: block;
     }
 
-    /*For every 1px in width = 1.2362139918px in height*/
-    #si2p{
-        width: 60%;
-        height: 48.53528628375778%;
-        margin: auto;
-        margin-bottom: 10%;
-    }
-
-    /*For every 1px in height = 0.667 in width*/
-    #si3p{
-        height: 90%;
-        width: 60%;
-        margin: auto;
-    }
-
-    /*For every 1px in height = 1.3550135501px in width*/
-    #si4l{
-        height: 59.04%;
-        width: 80%;
-        margin: auto;
-        margin-bottom: 10%;
-    }
-
-    /* For every 1px in height = 1.504px in width*/
-    #si5l{
-        height: 53.1914893617%;
-        width: 80%;
-        margin: auto;
-        margin-bottom: 10%;
-    }
-
-    /* For every 1 px in height = 1.498244245px in width */
-    #si6l{
-        height: 53.395833334%;
-        width: 80%;
-        margin: auto;
-        margin-bottom: 10%;
-    }    
-    
     .foto-link{
         display: flex;
         margin-left: 25%;
