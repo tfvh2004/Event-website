@@ -213,7 +213,7 @@ iPhone 6/7/8 Plus portrait*/
         width: 80vw;
     }
 
-    #story-header, .registry > h2, #RSVP-header{
+    #story-header, .registry-header, #RSVP-header {
         margin-top: 5%;
         margin-bottom: 8%;
         font-size: 2.3em;
