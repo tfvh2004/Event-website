@@ -227,7 +227,7 @@ iPhone 6/7/8 Plus portrait*/
     }
 
     .row{
-        margin: 20% 0% 5% 0%;
+        margin: 20% 0% 20% 0%;
         height: auto;
         flex-direction: column;
     }
@@ -243,15 +243,14 @@ iPhone 6/7/8 Plus portrait*/
     }
 
     .leeg{
-        height: 10%;
+        height: 30%;
     }
-
+    
     /*For every 1px in height = 0.75px in width*/
     #si1p{
         width: 30%;
         height: 40%;
         margin: auto;
-        margin-bottom: 5%;
     }
 
     /*For every 1px in width = 1.2362139918px in height*/
@@ -259,7 +258,7 @@ iPhone 6/7/8 Plus portrait*/
         width: 32.3568575225%;
         height: 40%;
         margin: auto;
-        margin-bottom: 5%;
+        margin-bottom: 20%;
     }
 
     /*For every 1px in height = 0.667 in width*/
@@ -267,7 +266,7 @@ iPhone 6/7/8 Plus portrait*/
         height: 40%;
         width: 26.668%;
         margin: auto;
-        margin-bottom: 5%;
+        margin-bottom: 20%;
     }
 
     /*For every 1px in height = 1.3550135501px in width*/
@@ -275,7 +274,7 @@ iPhone 6/7/8 Plus portrait*/
         height: 30%;
         width: 40.650406503%;
         margin: auto;
-        margin-bottom: 5%;
+        margin-bottom: 20%;
     }
 
     /* For every 1px in height = 1.504px in width*/
@@ -283,14 +282,14 @@ iPhone 6/7/8 Plus portrait*/
         height: 30%;
         width: 45.12%;
         margin: auto;
-        margin-bottom: 5%;
+        margin-bottom: 20%;
     }
 
     /* For every 1 px in heght = 1.498244245px in width */
     #si6l{
         height: 30%;
         width: 44.94732735%;
-        margin-bottom: 5%;
+        margin-bottom: 20%;
     }
 }
 
