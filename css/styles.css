@@ -191,7 +191,7 @@ p{
 /* Responsive design
 
 iPhone 6/7/8 Plus portrait*/
-@media screen and (max-width: 414px){
+@media screen and (max-width: 560px){
     #logo{
         display: none;
     }
@@ -303,7 +303,8 @@ iPhone 6/7/8 Plus portrait*/
     .foto-link{
         display: flex;
         margin-left: 25%;
-        margin-bottom: 50%;
+        margin-top: -60%;
+        margin-bottom: 10%;
         color: #fff;
         text-decoration: none;
     }
@@ -370,7 +371,11 @@ iPhone 6/7/8 Plus portrait*/
 
 
 /*iPads*/
-@media screen and (min-width: 768px) and (max-width: 1112px){    
+@media screen and (min-width: 768px) and (max-width: 1030px){    
+    .mnu{
+        font-size: 1.1em;
+    }
+    
     #si7p, #si8p, #si9p, #si10l, #si11l, #si12l, #si13p, #si14p, #si15p{
         display: none;
     }
@@ -423,8 +428,9 @@ iPhone 6/7/8 Plus portrait*/
 
     .foto-link{
         display: flex;
-        margin-left: 25%;
-        margin-bottom: 50%;
+        margin-left: 35%;
+        margin-top: -45%;
+        margin-bottom: 5%;
         color: #fff;
         text-decoration: none;
     }
