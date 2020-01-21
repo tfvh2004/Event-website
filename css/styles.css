@@ -371,12 +371,54 @@ iPhone 6/7/8 Plus portrait*/
 
 /*iPads*/
 @media screen and (min-width: 768px) and (max-width: 1112px){    
-    #si2p, #si3p, #si4l, #si5l, #si6l, #si7p, #si8p, #si9p, #si10l, #si11l, #si12l, #si13p, #si14p, #si15p{
+    #si7p, #si8p, #si9p, #si10l, #si11l, #si12l, #si13p, #si14p, #si15p{
         display: none;
     }
 
+    .row{
+        flex-direction: column;
+    }
+
     #si1p{
-        display: block;
+        width: 60%;
+        height: 80%;
+        margin: auto;
+        margin-bottom: 10%;
+    }
+
+    #si2p{
+        width: 60%;
+        height: 48.53528628375778%;
+        margin: auto;
+        margin-bottom: 10%;
+    }
+
+    #si3p{
+        height: 90%;
+        width: 60%;
+        margin: auto;
+    }
+
+
+    #si4l{
+        height: 59.04%;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 10%;
+    }
+
+    #si5l{
+        height: 53.1914893617%;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 10%;
+    }
+
+    #si6l{
+        height: 53.395833334%;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 10%;
     }
 
     .foto-link{
