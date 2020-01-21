@@ -321,7 +321,7 @@ iPhone 6/7/8 Plus portrait*/
 /*iPhone 6/7/8 Plus landscape*/
 @media screen and (min-width: 560px) and (max-width: 800px){
     .mnu{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .tanimation{
