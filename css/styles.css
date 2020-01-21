@@ -231,9 +231,14 @@ iPhone 6/7/8 Plus portrait*/
         height: auto;
     }
 
-    .stonks{
-        width: 20vw;
-        max-height: 100vh;
+    .portrait{
+        height: 16vh;
+        width: 9vw;
+    }
+
+    .landscape{
+        width: 16vw;
+        height: 9vh;
     }
 }
 
