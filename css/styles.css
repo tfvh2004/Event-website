@@ -240,6 +240,12 @@ iPhone 6/7/8 Plus portrait*/
         width: 16vw;
         height: 9vh;
     }
+
+    /*For every 1px in height = 0.75px in width*/
+    #si1p{
+        width: 37.5%;
+        height: 50%
+    }
 }
 
 /*iPhone 6/7/8 Plus landscape*/
