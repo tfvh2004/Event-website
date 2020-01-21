@@ -376,6 +376,10 @@ iPhone 6/7/8 Plus portrait*/
         font-size: 1.1em;
     }
     
+    p{
+        width: 80vw;
+    }
+
     #si7p, #si8p, #si9p, #si10l, #si11l, #si12l, #si13p, #si14p, #si15p{
         display: none;
     }
