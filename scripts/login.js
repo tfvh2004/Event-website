@@ -15,6 +15,10 @@ var objPeople = [
 	{
 		username: "morris",
 		password: "van herwijnen"
+	},
+	{
+		username: "rishi",
+		password: "van dongen"
 	}
 ]
 
