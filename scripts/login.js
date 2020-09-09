@@ -1,24 +1,24 @@
 //Login system for RSVP'ing
 var objPeople = [
   {
-    username: "dean",
-    password: "de jonge",
+    username: "First name",
+    password: "Last name",
   },
   {
-    username: "stijn",
-    password: "kasius",
+    username: "First name",
+    password: "Last name",
   },
   {
-    username: "sem",
-    password: "bravenboer",
+    username: "First name",
+    password: "Last name",
   },
   {
-    username: "morris",
-    password: "van herwijnen",
+    username: "First name",
+    password: "Last name",
   },
   {
-    username: "rishi",
-    password: "van dongen",
+    username: "First name",
+    password: "Last name",
   },
 ];
 
